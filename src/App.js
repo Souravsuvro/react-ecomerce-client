@@ -2,15 +2,24 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
+import ProductBox from '../src/components/ProductBox'
 
+
+// list of compomnents
+//product image
+// favourit icon
+// productcontent
+// rating icon
+// add to curt button
+// Sale tag component
 
 const App = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+      <Grid container spacing={{ xs: 2, md: 4 }} columns={{ xs: 4, sm: 8, md: 16 }}>
         {Array.from(Array(6)).map((_, index) => (
           <Grid item xs={2} sm={4} md={4} key={index}>
-            <Item>xs=2</Item>
+            <ProductBox>xs=2</ProductBox>
           </Grid>
         ))}
       </Grid>

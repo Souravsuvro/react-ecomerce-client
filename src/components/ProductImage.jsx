@@ -1,4 +1,6 @@
 const ProductImage = () => {
-return <h1>PRoductimage</h1>
+    return <>
+     <img src="#" alt="product_image" className=""/>
+    </>
 }
 export default ProductImage

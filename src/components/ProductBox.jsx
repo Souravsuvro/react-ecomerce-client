@@ -1,4 +1,4 @@
-import ProductImage from './ProductImage';
+import ProductImage from './Product/ProductImage';
 import AddtoCartButton from './Product/AddtoCartButton';
 import FavoriteIcon from './Product/FavoriteIcon';
 import RatingIcon from './Product/RatingIcon'

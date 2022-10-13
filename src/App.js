@@ -15,9 +15,6 @@ import Navbar from "./pages/Navbar";
 const App = () => {
   return (
     <div className='App'>
-      <Navbar/>
-      <SignIn/>
-      <SignUp/>
       <Product/>
     </div>
   );

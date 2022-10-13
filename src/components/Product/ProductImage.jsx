@@ -1,6 +1,8 @@
-const ProductImage = () => {
+
+
+const ProductImage = ({imageSource}) => {
     return <>
-     <img src="#" alt="product_image" className=""/>
+     <img src={imageSource} alt="product_image" className=""/>
     </>
 }
 export default ProductImage

@@ -1,8 +1,4 @@
-import SignIn from "./pages/SignIn";
-import SignUp from "./pages/SignUp";
 import Product from "./pages/Product";
-import Navbar from "./pages/Navbar";
-
 
 // list of compomnents
 //product image
@@ -15,7 +11,8 @@ import Navbar from "./pages/Navbar";
 const App = () => {
   return (
     <div className='App'>
-      <Product/>
+      <Product />
+      
     </div>
   );
 }
